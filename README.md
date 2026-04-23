@@ -3,8 +3,8 @@
 ##  Table of Contents
 * [ Project Description](#-project-description)
 * [ Key Features](#-key-features)
-* [ Hardware Requirements](#-hardware-requirements)
 * [ Software Stack](#-software-stack)
+* [ Hardware Requirements](#-hardware-requirements)
 * [ How It Works](#-how-it-works)
 * [ Setup Instructions](#-setup-instructions)
 
@@ -53,13 +53,22 @@ The system provides dual-interface monitoring:
 * **GPS (RX/TX):** Pin 16 / Pin 17
 * **MPU6050:** I2C (SDA 21, SCL 22)
 
-### 2. Backend Setup
-```bash
-cd backend
-npm install
-npm start.
 
-### 3. Frontend Setup
+### 2. Frontend Setup
+```bash
 cd frontend
 npm install
 npm start
+```
+
+### 3. Backend Setup
+```bash
+cd backend
+npm install
+npm run dev.
+```
+
+
+
+
+
